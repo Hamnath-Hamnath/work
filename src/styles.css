@@ -1,0 +1,65 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.active {
+  color: white;
+  background-color: #9c816d !important;
+}
+nav {
+  color: white;
+  background-color: #504136 !important;
+}
+.nav-link {
+  color: white !important;
+}
+.Bar_border {
+  border-bottom: solid 5.5px #4dabf5;
+  border-left: solid 5.5px #4dabf5;
+  /* border-bottom-right-radius: 5px; */
+  /* border-top-left-radius: 5px; */
+  border-bottom-left-radius: 5px;
+}
+.result_pie {
+  padding: 32px 0px 50px 0px;
+}
+
+.result_pie_details {
+  /* margin-left: 10px 8fc1e3;
+  padding-right: 0px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result_pie_details table {
+  font-size: 17px;
+  border-collapse: collapse;
+  text-align: left;
+  width: fit-content;
+}
+
+.result_pie_data {
+  font-weight: 600 !important;
+}
+
+.msg {
+  margin-top: 180px;
+  font-size: 17px;
+  color: gray;
+  font-weight: 600;
+  padding: 0px;
+  cursor: default;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .result_right {
+    left: 15px;
+    margin-top: 1rem;
+  }
+}
+
+.tableHeight {
+  height: 415px;
+}
